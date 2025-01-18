@@ -32,6 +32,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
           />
         </SheetTrigger>
         <SheetContent side="left" className="border-none bg-white">
+          <SheetTitle className="hidden">Menu</SheetTitle>
           <SheetClose asChild>
             <Link
               href="/"
